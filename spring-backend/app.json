@@ -1,0 +1,7 @@
+{
+    "name": "vagas-api",
+    "description": "Spring Boot API for Vagas Platform",
+    "main": "com.example.vagas.VagasApiApplication",
+    "springBootVersion": "2.7.18",
+    "javaVersion": "8"
+}

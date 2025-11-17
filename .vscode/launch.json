@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VagasApiApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/spring-backend",
+            "console": "internalConsole",
+            "mainClass": "com.example.vagas.VagasApiApplication",
+            "projectName": "vagas-api",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=default"
+        }
+    ]
+}

@@ -1,8 +1,39 @@
+# GlobalSolution2 Project - Root Level
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Credentials and environment files
+.env
+*.env
+*.key
+*.pem
+secrets.yml
+secrets.yaml
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Dependencies
+node_modules/
+
+# Documentation
+docs/generated/
+
 # Compiled class file
 *.class
-
-# Log file
-*.log
 
 # BlueJ files
 *.ctxt

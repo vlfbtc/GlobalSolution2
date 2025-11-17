@@ -1,0 +1,10 @@
+services:
+  oracle:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle-xe
+    ports:
+      - "1521:1521"
+    environment:
+      ORACLE_PASSWORD: 123456
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d

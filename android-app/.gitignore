@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+*.iml
+.gradle/
+/local.properties
+/build
+build/
+
+# IDE files
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and test files
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Log Files
+*.log
+
+# Android Profiling
+*.hprof
+
+# Keystore files (uncomment if needed)
+#*.jks
+#*.keystore
+
+# Google Services
+#google-services.json

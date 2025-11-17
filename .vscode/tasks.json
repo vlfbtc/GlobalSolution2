@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Spring Boot: Run",
+            "type": "shell",
+            "command": "${workspaceFolder}/spring-backend/mvnw.cmd",
+            "args": [
+                "spring-boot:run"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/spring-backend"
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "Spring Boot: Clean",
+            "type": "shell",
+            "command": "${workspaceFolder}/spring-backend/mvnw.cmd",
+            "args": [
+                "clean"
+            ],
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/spring-backend"
+            }
+        },
+        {
+            "label": "Spring Boot: Package",
+            "type": "shell",
+            "command": "${workspaceFolder}/spring-backend/mvnw.cmd",
+            "args": [
+                "clean",
+                "package"
+            ],
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/spring-backend"
+            }
+        }
+    ]
+}

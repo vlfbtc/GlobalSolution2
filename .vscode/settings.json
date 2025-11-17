@@ -1,0 +1,25 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.enableRunDebugCodeLens": true,
+    "java.debug.logLevel": "INFO",
+    "spring-boot.ls.checkJVM": false,
+    "spring-boot.ls.java.home": null,
+    "spring-boot.ls.java.heap": null,
+    "spring-boot.ls.java.vmargs": [],
+    "spring.initializr.defaultLanguage": "Java",
+    "spring.initializr.defaultJavaVersion": "17",
+    "spring.initializr.defaultPackaging": "Jar",
+    "spring.initializr.defaultType": "Maven Project",
+    "files.exclude": {
+        "**/target": true,
+        "**/.mvn": false
+    },
+    "java.project.sourcePaths": [
+        "spring-backend/src/main/java"
+    ],
+    "java.project.outputPath": "spring-backend/target/classes",
+    "java.project.referencedLibraries": [
+        "spring-backend/target/dependency/*.jar"
+    ]
+}

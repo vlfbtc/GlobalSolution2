@@ -1,0 +1,13 @@
+# Oracle Docker volume data
+db/data/
+*.log
+*.dmp
+*.trc
+
+# Backup files
+*.bak
+*.backup
+
+# Oracle specific
+oradiag_*
+*.ora~
