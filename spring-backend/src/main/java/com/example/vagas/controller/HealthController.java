@@ -34,7 +34,7 @@ public class HealthController {
                 response.put("message", "API Spring Boot funcionando corretamente");
                 response.put("database", isValid ? "CONNECTED" : "DISCONNECTED");
                 response.put("timestamp", System.currentTimeMillis());
-                response.put("port", 8080);
+                response.put("port", 8081);
                 
                 return ResponseEntity.ok(response);
             }
